@@ -31,7 +31,7 @@
   color: white;
 }
 .NavBarJS{
-  background-color: #282c34;
+  background-color: #5c82ce;
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
@@ -52,6 +52,11 @@
   color: white;
   text-decoration: none;
   padding: 10px;
+}
+.iconn {
+  color: aliceblue;
+  padding: 20px;
+  
 }
 @keyframes App-logo-spin {
   from {
