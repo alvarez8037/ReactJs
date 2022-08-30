@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar"
 
 
 
+
   const App = () => { 
     const saludo = 'bienvenidos';
   
@@ -12,6 +13,7 @@ import NavBar from "./components/NavBar"
     <>
     <NavBar/>
     <ItemListContainer saludo={saludo}/>
+    
     </>
   );
 
