@@ -2,7 +2,7 @@ import './ItemCount.css'
 
 import React, { useState } from 'react';
 
-export const itemcount = ({initial, stock, onAdd}) => {
+export const Itemcount = ({initial, stock, onAdd}) => {
 const [count, setCount] = useState(initial);
 
 const decrease = () => {
@@ -26,4 +26,4 @@ return (
     );
 
 }
-export default itemcount;
+export default Itemcount;

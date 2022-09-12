@@ -1,4 +1,4 @@
-import ItemCount from '../ItemCount';
+
 import ItemList from '../ItemList';
 import { useParams } from 'react-router-dom'
 import React, {useState, useEffect} from 'react';
@@ -39,15 +39,12 @@ const getData = new Promise(resolve => {
 
 }, [categoriaId])
 
-    const onAdd = (quantity) => {
-        console.log(`compraste ${quantity} unidades`);
-    }
-
+    
     return (
         
         <>
         <h2>{saludo}</h2>
-        <ItemCount initial={1} stock={5} onAdd={onAdd} />
+        
         <ItemList data={data} />
         </>
         

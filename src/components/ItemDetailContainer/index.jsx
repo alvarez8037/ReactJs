@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './itemDetailContainer.css';
-import Itemcount from "../ItemCount";
+
 import ItemDetail from "../ItemDetail";
 import { useParams } from 'react-router-dom'
 
@@ -29,7 +29,7 @@ const getData = new Promise(resolve => {
     });
 
     getData.then(res => setData(res.find(film =>film.id === parseInt(detalleId))));
-    },[])
+    },[detalleId])
     
 
     return (
