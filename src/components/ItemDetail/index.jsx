@@ -27,7 +27,7 @@ export const ItemDetail = ({ data }) => {
       : <ItemCount initial={1} stock={5} onAdd={onAdd} />
     }
 
-    <h2>precio: $180</h2>
+    
     <p>descripcion: 
         Diseñadas para vos que te arriesgás a todo y que no pasas desapercibida, ideales para que vivas todas las aventuras posibles con las Zapatillas Nike Air Force 1 07 con capas de cuero sintético, te ofrece un look urbano y moderno lleno de texturas y ritmo. Su entresuela ancha y suela ranurada te ofrece ligereza y amortiguación en cualquier superficie para que vayas segura dando pasos estables y con un estilo único característico de la marca.</p>
     </div>
