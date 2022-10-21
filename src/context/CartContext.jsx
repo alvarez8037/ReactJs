@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import '../components/Cart/index'
 
 const CartContext = React.createContext([]);
 
@@ -40,6 +41,7 @@ const clearCart = () => setCart([]);
 
 
     return (
+
         <CartContext.Provider value={{
                 clearCart,
                  isInCart,
@@ -51,7 +53,9 @@ const clearCart = () => setCart([]);
 
                 }}>
             {children}
+            
         </CartContext.Provider>
+
     )
 }
 

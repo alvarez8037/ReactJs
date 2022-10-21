@@ -1,6 +1,6 @@
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Cart from './components/Cart';
 import './App.css';
+import Cart from './components/Cart';
 import NavBar from "./components/NavBar"
 import CartProvider from './context/CartContext';
 import ItemDetailContainer from './components/ItemDetailContainer';
